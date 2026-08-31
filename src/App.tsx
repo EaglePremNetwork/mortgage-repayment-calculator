@@ -268,12 +268,10 @@ function App() {
           </fieldset>
           <button
             type="submit"
-            className="mt-6 flex justify-center w-full py-4 rounded-4xl font-bold text-slate-900 bg-lime hover:cursor-pointer hover:bg-lime/50 md:w-3/4 md:mt-10"
+            className="mt-6 flex justify-center gap-2 w-full py-4 rounded-4xl font-bold text-slate-900 bg-lime hover:cursor-pointer hover:bg-lime/50 md:w-3/4 md:mt-10"
           >
-            <div className="flex gap-2">
-              <img src={calculatorIcon} alt="" />
-              <span>Calculate Repayments</span>
-            </div>
+            <img src={calculatorIcon} alt="" />
+            <span>Calculate Repayments</span>
           </button>
         </form>
         <section
